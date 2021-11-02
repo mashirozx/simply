@@ -13258,6 +13258,21 @@ a > code[class*="language-"] {
   border-color: rgba(100, 212, 72, var(--tw-divide-opacity));
 }
 
+.divide-github > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-divide-opacity));
+}
+
+.divide-mastodon > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-divide-opacity));
+}
+
+.divide-weibo > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-divide-opacity));
+}
+
 .divide-opacity-0 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 0;
 }
@@ -14186,6 +14201,21 @@ a > code[class*="language-"] {
   border-color: rgba(100, 212, 72, var(--tw-border-opacity));
 }
 
+.border-github{
+  --tw-border-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+}
+
+.border-mastodon{
+  --tw-border-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+}
+
+.border-weibo{
+  --tw-border-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+}
+
 .group:hover .group-hover\:border-transparent{
   border-color: transparent;
 }
@@ -14369,6 +14399,21 @@ a > code[class*="language-"] {
 .group:hover .group-hover\:border-whatsapp{
   --tw-border-opacity: 1;
   border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-github{
+  --tw-border-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-mastodon{
+  --tw-border-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-weibo{
+  --tw-border-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-border-opacity));
 }
 
 .focus-within\:border-transparent:focus-within{
@@ -14556,6 +14601,21 @@ a > code[class*="language-"] {
   border-color: rgba(100, 212, 72, var(--tw-border-opacity));
 }
 
+.focus-within\:border-github:focus-within{
+  --tw-border-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+}
+
+.focus-within\:border-mastodon:focus-within{
+  --tw-border-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+}
+
+.focus-within\:border-weibo:focus-within{
+  --tw-border-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+}
+
 .hover\:border-transparent:hover{
   border-color: transparent;
 }
@@ -14741,6 +14801,21 @@ a > code[class*="language-"] {
   border-color: rgba(100, 212, 72, var(--tw-border-opacity));
 }
 
+.hover\:border-github:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+}
+
+.hover\:border-mastodon:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+}
+
+.hover\:border-weibo:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+}
+
 .focus\:border-transparent:focus{
   border-color: transparent;
 }
@@ -14924,6 +14999,21 @@ a > code[class*="language-"] {
 .focus\:border-whatsapp:focus{
   --tw-border-opacity: 1;
   border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+}
+
+.focus\:border-github:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+}
+
+.focus\:border-mastodon:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+}
+
+.focus\:border-weibo:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(214, 38, 41, var(--tw-border-opacity));
 }
 
 .border-opacity-0{
@@ -15451,6 +15541,21 @@ a > code[class*="language-"] {
   background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
 }
 
+.bg-github{
+  --tw-bg-opacity: 1;
+  background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+}
+
+.bg-mastodon{
+  --tw-bg-opacity: 1;
+  background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+}
+
+.bg-weibo{
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-transparent{
   background-color: transparent;
 }
@@ -15634,6 +15739,21 @@ a > code[class*="language-"] {
 .group:hover .group-hover\:bg-whatsapp{
   --tw-bg-opacity: 1;
   background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-github{
+  --tw-bg-opacity: 1;
+  background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-mastodon{
+  --tw-bg-opacity: 1;
+  background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-weibo{
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-transparent:focus-within{
@@ -15821,6 +15941,21 @@ a > code[class*="language-"] {
   background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-github:focus-within{
+  --tw-bg-opacity: 1;
+  background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-mastodon:focus-within{
+  --tw-bg-opacity: 1;
+  background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-weibo:focus-within{
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+}
+
 .hover\:bg-transparent:hover{
   background-color: transparent;
 }
@@ -16006,6 +16141,21 @@ a > code[class*="language-"] {
   background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
 }
 
+.hover\:bg-github:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+}
+
+.hover\:bg-mastodon:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+}
+
+.hover\:bg-weibo:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+}
+
 .focus\:bg-transparent:focus{
   background-color: transparent;
 }
@@ -16189,6 +16339,21 @@ a > code[class*="language-"] {
 .focus\:bg-whatsapp:focus{
   --tw-bg-opacity: 1;
   background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+}
+
+.focus\:bg-github:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+}
+
+.focus\:bg-mastodon:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+}
+
+.focus\:bg-weibo:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
 }
 
 .bg-opacity-0{
@@ -16767,6 +16932,21 @@ a > code[class*="language-"] {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
 }
 
+.from-github{
+  --tw-gradient-from: #24292f;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.from-mastodon{
+  --tw-gradient-from: #3088d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.from-weibo{
+  --tw-gradient-from: #d62629;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+}
+
 .hover\:from-transparent:hover{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -16965,6 +17145,21 @@ a > code[class*="language-"] {
 .hover\:from-whatsapp:hover{
   --tw-gradient-from: #64d448;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
+}
+
+.hover\:from-github:hover{
+  --tw-gradient-from: #24292f;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.hover\:from-mastodon:hover{
+  --tw-gradient-from: #3088d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.hover\:from-weibo:hover{
+  --tw-gradient-from: #d62629;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
 }
 
 .focus\:from-transparent:focus{
@@ -17167,6 +17362,21 @@ a > code[class*="language-"] {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
 }
 
+.focus\:from-github:focus{
+  --tw-gradient-from: #24292f;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.focus\:from-mastodon:focus{
+  --tw-gradient-from: #3088d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.focus\:from-weibo:focus{
+  --tw-gradient-from: #d62629;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+}
+
 .via-transparent{
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
@@ -17325,6 +17535,18 @@ a > code[class*="language-"] {
 
 .via-whatsapp{
   --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+}
+
+.via-github{
+  --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.via-mastodon{
+  --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.via-weibo{
+  --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
 }
 
 .hover\:via-transparent:hover{
@@ -17487,6 +17709,18 @@ a > code[class*="language-"] {
   --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
 }
 
+.hover\:via-github:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.hover\:via-mastodon:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.hover\:via-weibo:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
+}
+
 .focus\:via-transparent:focus{
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
@@ -17645,6 +17879,18 @@ a > code[class*="language-"] {
 
 .focus\:via-whatsapp:focus{
   --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+}
+
+.focus\:via-github:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+}
+
+.focus\:via-mastodon:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+}
+
+.focus\:via-weibo:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
 }
 
 .to-transparent{
@@ -17807,6 +18053,18 @@ a > code[class*="language-"] {
   --tw-gradient-to: #64d448;
 }
 
+.to-github{
+  --tw-gradient-to: #24292f;
+}
+
+.to-mastodon{
+  --tw-gradient-to: #3088d4;
+}
+
+.to-weibo{
+  --tw-gradient-to: #d62629;
+}
+
 .hover\:to-transparent:hover{
   --tw-gradient-to: transparent;
 }
@@ -17967,6 +18225,18 @@ a > code[class*="language-"] {
   --tw-gradient-to: #64d448;
 }
 
+.hover\:to-github:hover{
+  --tw-gradient-to: #24292f;
+}
+
+.hover\:to-mastodon:hover{
+  --tw-gradient-to: #3088d4;
+}
+
+.hover\:to-weibo:hover{
+  --tw-gradient-to: #d62629;
+}
+
 .focus\:to-transparent:focus{
   --tw-gradient-to: transparent;
 }
@@ -18125,6 +18395,18 @@ a > code[class*="language-"] {
 
 .focus\:to-whatsapp:focus{
   --tw-gradient-to: #64d448;
+}
+
+.focus\:to-github:focus{
+  --tw-gradient-to: #24292f;
+}
+
+.focus\:to-mastodon:focus{
+  --tw-gradient-to: #3088d4;
+}
+
+.focus\:to-weibo:focus{
+  --tw-gradient-to: #d62629;
 }
 
 .decoration-slice{
@@ -19946,6 +20228,21 @@ a > code[class*="language-"] {
   color: rgba(100, 212, 72, var(--tw-text-opacity));
 }
 
+.text-github{
+  --tw-text-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-text-opacity));
+}
+
+.text-mastodon{
+  --tw-text-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-text-opacity));
+}
+
+.text-weibo{
+  --tw-text-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-transparent{
   color: transparent;
 }
@@ -20129,6 +20426,21 @@ a > code[class*="language-"] {
 .group:hover .group-hover\:text-whatsapp{
   --tw-text-opacity: 1;
   color: rgba(100, 212, 72, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-github{
+  --tw-text-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-mastodon{
+  --tw-text-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-weibo{
+  --tw-text-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-text-opacity));
 }
 
 .focus-within\:text-transparent:focus-within{
@@ -20316,6 +20628,21 @@ a > code[class*="language-"] {
   color: rgba(100, 212, 72, var(--tw-text-opacity));
 }
 
+.focus-within\:text-github:focus-within{
+  --tw-text-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-text-opacity));
+}
+
+.focus-within\:text-mastodon:focus-within{
+  --tw-text-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-text-opacity));
+}
+
+.focus-within\:text-weibo:focus-within{
+  --tw-text-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-text-opacity));
+}
+
 .hover\:text-transparent:hover{
   color: transparent;
 }
@@ -20501,6 +20828,21 @@ a > code[class*="language-"] {
   color: rgba(100, 212, 72, var(--tw-text-opacity));
 }
 
+.hover\:text-github:hover{
+  --tw-text-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-text-opacity));
+}
+
+.hover\:text-mastodon:hover{
+  --tw-text-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-text-opacity));
+}
+
+.hover\:text-weibo:hover{
+  --tw-text-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-text-opacity));
+}
+
 .focus\:text-transparent:focus{
   color: transparent;
 }
@@ -20684,6 +21026,21 @@ a > code[class*="language-"] {
 .focus\:text-whatsapp:focus{
   --tw-text-opacity: 1;
   color: rgba(100, 212, 72, var(--tw-text-opacity));
+}
+
+.focus\:text-github:focus{
+  --tw-text-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-text-opacity));
+}
+
+.focus\:text-mastodon:focus{
+  --tw-text-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-text-opacity));
+}
+
+.focus\:text-weibo:focus{
+  --tw-text-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-text-opacity));
 }
 
 .text-opacity-0{
@@ -21281,6 +21638,21 @@ a > code[class*="language-"] {
   color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
 }
 
+.placeholder-github::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+}
+
+.placeholder-mastodon::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+}
+
+.placeholder-weibo::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
+}
+
 .focus\:placeholder-transparent:focus::placeholder{
   color: transparent;
 }
@@ -21464,6 +21836,21 @@ a > code[class*="language-"] {
 .focus\:placeholder-whatsapp:focus::placeholder{
   --tw-placeholder-opacity: 1;
   color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-github:focus::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-mastodon:focus::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-weibo:focus::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
 }
 
 .placeholder-opacity-0::placeholder{
@@ -22658,6 +23045,21 @@ a > code[class*="language-"] {
   --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
 }
 
+.ring-github{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+}
+
+.ring-mastodon{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+}
+
+.ring-weibo{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+}
+
 .focus-within\:ring-transparent:focus-within{
   --tw-ring-color: transparent;
 }
@@ -22843,6 +23245,21 @@ a > code[class*="language-"] {
   --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
 }
 
+.focus-within\:ring-github:focus-within{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+}
+
+.focus-within\:ring-mastodon:focus-within{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+}
+
+.focus-within\:ring-weibo:focus-within{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+}
+
 .focus\:ring-transparent:focus{
   --tw-ring-color: transparent;
 }
@@ -23026,6 +23443,21 @@ a > code[class*="language-"] {
 .focus\:ring-whatsapp:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
+}
+
+.focus\:ring-github:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+}
+
+.focus\:ring-mastodon:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+}
+
+.focus\:ring-weibo:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
 }
 
 .ring-opacity-0{
@@ -23452,6 +23884,18 @@ a > code[class*="language-"] {
   --tw-ring-offset-color: #64d448;
 }
 
+.ring-offset-github{
+  --tw-ring-offset-color: #24292f;
+}
+
+.ring-offset-mastodon{
+  --tw-ring-offset-color: #3088d4;
+}
+
+.ring-offset-weibo{
+  --tw-ring-offset-color: #d62629;
+}
+
 .focus-within\:ring-offset-transparent:focus-within{
   --tw-ring-offset-color: transparent;
 }
@@ -23612,6 +24056,18 @@ a > code[class*="language-"] {
   --tw-ring-offset-color: #64d448;
 }
 
+.focus-within\:ring-offset-github:focus-within{
+  --tw-ring-offset-color: #24292f;
+}
+
+.focus-within\:ring-offset-mastodon:focus-within{
+  --tw-ring-offset-color: #3088d4;
+}
+
+.focus-within\:ring-offset-weibo:focus-within{
+  --tw-ring-offset-color: #d62629;
+}
+
 .focus\:ring-offset-transparent:focus{
   --tw-ring-offset-color: transparent;
 }
@@ -23770,6 +24226,18 @@ a > code[class*="language-"] {
 
 .focus\:ring-offset-whatsapp:focus{
   --tw-ring-offset-color: #64d448;
+}
+
+.focus\:ring-offset-github:focus{
+  --tw-ring-offset-color: #24292f;
+}
+
+.focus\:ring-offset-mastodon:focus{
+  --tw-ring-offset-color: #3088d4;
+}
+
+.focus\:ring-offset-weibo:focus{
+  --tw-ring-offset-color: #d62629;
 }
 
 .filter{
@@ -34997,6 +35465,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-divide-opacity));
   }
 
+  .sm\:divide-github > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-divide-opacity));
+  }
+
+  .sm\:divide-mastodon > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-divide-opacity));
+  }
+
+  .sm\:divide-weibo > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-divide-opacity));
+  }
+
   .sm\:divide-opacity-0 > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 0;
   }
@@ -35925,6 +36408,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .sm\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .sm\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .sm\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .group:hover .sm\:group-hover\:border-transparent{
     border-color: transparent;
   }
@@ -36108,6 +36606,21 @@ a > code[class*="language-"] {
   .group:hover .sm\:group-hover\:border-whatsapp{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .sm\:focus-within\:border-transparent:focus-within{
@@ -36295,6 +36808,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .sm\:focus-within\:border-github:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .sm\:focus-within\:border-mastodon:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .sm\:focus-within\:border-weibo:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .sm\:hover\:border-transparent:hover{
     border-color: transparent;
   }
@@ -36480,6 +37008,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .sm\:hover\:border-github:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .sm\:hover\:border-mastodon:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .sm\:hover\:border-weibo:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .sm\:focus\:border-transparent:focus{
     border-color: transparent;
   }
@@ -36663,6 +37206,21 @@ a > code[class*="language-"] {
   .sm\:focus\:border-whatsapp:focus{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .sm\:focus\:border-github:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .sm\:focus\:border-mastodon:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .sm\:focus\:border-weibo:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .sm\:border-opacity-0{
@@ -37190,6 +37748,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent{
     background-color: transparent;
   }
@@ -37373,6 +37946,21 @@ a > code[class*="language-"] {
   .group:hover .sm\:group-hover\:bg-whatsapp{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-transparent:focus-within{
@@ -37560,6 +38148,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-github:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-mastodon:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-weibo:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -37745,6 +38348,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-github:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-mastodon:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-weibo:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-transparent:focus{
     background-color: transparent;
   }
@@ -37928,6 +38546,21 @@ a > code[class*="language-"] {
   .sm\:focus\:bg-whatsapp:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-github:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-mastodon:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-weibo:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .sm\:bg-opacity-0{
@@ -38506,6 +39139,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .sm\:from-github{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:from-mastodon{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:from-weibo{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .sm\:hover\:from-transparent:hover{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -38704,6 +39352,21 @@ a > code[class*="language-"] {
   .sm\:hover\:from-whatsapp:hover{
     --tw-gradient-from: #64d448;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .sm\:hover\:from-github:hover{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:hover\:from-mastodon:hover{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:hover\:from-weibo:hover{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .sm\:focus\:from-transparent:focus{
@@ -38906,6 +39569,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .sm\:focus\:from-github:focus{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:focus\:from-mastodon:focus{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:focus\:from-weibo:focus{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .sm\:via-transparent{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -39064,6 +39742,18 @@ a > code[class*="language-"] {
 
   .sm\:via-whatsapp{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .sm\:via-github{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:via-mastodon{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:via-weibo{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .sm\:hover\:via-transparent:hover{
@@ -39226,6 +39916,18 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .sm\:hover\:via-github:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:hover\:via-mastodon:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:hover\:via-weibo:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .sm\:focus\:via-transparent:focus{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -39384,6 +40086,18 @@ a > code[class*="language-"] {
 
   .sm\:focus\:via-whatsapp:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .sm\:focus\:via-github:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .sm\:focus\:via-mastodon:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .sm\:focus\:via-weibo:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .sm\:to-transparent{
@@ -39546,6 +40260,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .sm\:to-github{
+    --tw-gradient-to: #24292f;
+  }
+
+  .sm\:to-mastodon{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .sm\:to-weibo{
+    --tw-gradient-to: #d62629;
+  }
+
   .sm\:hover\:to-transparent:hover{
     --tw-gradient-to: transparent;
   }
@@ -39706,6 +40432,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .sm\:hover\:to-github:hover{
+    --tw-gradient-to: #24292f;
+  }
+
+  .sm\:hover\:to-mastodon:hover{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .sm\:hover\:to-weibo:hover{
+    --tw-gradient-to: #d62629;
+  }
+
   .sm\:focus\:to-transparent:focus{
     --tw-gradient-to: transparent;
   }
@@ -39864,6 +40602,18 @@ a > code[class*="language-"] {
 
   .sm\:focus\:to-whatsapp:focus{
     --tw-gradient-to: #64d448;
+  }
+
+  .sm\:focus\:to-github:focus{
+    --tw-gradient-to: #24292f;
+  }
+
+  .sm\:focus\:to-mastodon:focus{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .sm\:focus\:to-weibo:focus{
+    --tw-gradient-to: #d62629;
   }
 
   .sm\:decoration-slice{
@@ -41685,6 +42435,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .sm\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .sm\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .sm\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .group:hover .sm\:group-hover\:text-transparent{
     color: transparent;
   }
@@ -41868,6 +42633,21 @@ a > code[class*="language-"] {
   .group:hover .sm\:group-hover\:text-whatsapp{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-transparent:focus-within{
@@ -42055,6 +42835,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .sm\:focus-within\:text-github:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .sm\:focus-within\:text-mastodon:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .sm\:focus-within\:text-weibo:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .sm\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -42240,6 +43035,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .sm\:hover\:text-github:hover{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .sm\:hover\:text-mastodon:hover{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .sm\:hover\:text-weibo:hover{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .sm\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -42423,6 +43233,21 @@ a > code[class*="language-"] {
   .sm\:focus\:text-whatsapp:focus{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-github:focus{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-mastodon:focus{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-weibo:focus{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .sm\:text-opacity-0{
@@ -43020,6 +43845,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
   }
 
+  .sm\:placeholder-github::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-mastodon::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-weibo::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
+  }
+
   .sm\:focus\:placeholder-transparent:focus::placeholder{
     color: transparent;
   }
@@ -43203,6 +44043,21 @@ a > code[class*="language-"] {
   .sm\:focus\:placeholder-whatsapp:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-github:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-mastodon:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-weibo:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
   }
 
   .sm\:placeholder-opacity-0::placeholder{
@@ -44384,6 +45239,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .sm\:ring-github{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .sm\:ring-mastodon{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .sm\:ring-weibo{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .sm\:focus-within\:ring-transparent:focus-within{
     --tw-ring-color: transparent;
   }
@@ -44569,6 +45439,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .sm\:focus-within\:ring-github:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus-within\:ring-mastodon:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus-within\:ring-weibo:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .sm\:focus\:ring-transparent:focus{
     --tw-ring-color: transparent;
   }
@@ -44752,6 +45637,21 @@ a > code[class*="language-"] {
   .sm\:focus\:ring-whatsapp:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus\:ring-github:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus\:ring-mastodon:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus\:ring-weibo:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
   }
 
   .sm\:ring-opacity-0{
@@ -45178,6 +46078,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .sm\:ring-offset-github{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .sm\:ring-offset-mastodon{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .sm\:ring-offset-weibo{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .sm\:focus-within\:ring-offset-transparent:focus-within{
     --tw-ring-offset-color: transparent;
   }
@@ -45338,6 +46250,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .sm\:focus-within\:ring-offset-github:focus-within{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .sm\:focus-within\:ring-offset-mastodon:focus-within{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .sm\:focus-within\:ring-offset-weibo:focus-within{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .sm\:focus\:ring-offset-transparent:focus{
     --tw-ring-offset-color: transparent;
   }
@@ -45496,6 +46420,18 @@ a > code[class*="language-"] {
 
   .sm\:focus\:ring-offset-whatsapp:focus{
     --tw-ring-offset-color: #64d448;
+  }
+
+  .sm\:focus\:ring-offset-github:focus{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .sm\:focus\:ring-offset-mastodon:focus{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .sm\:focus\:ring-offset-weibo:focus{
+    --tw-ring-offset-color: #d62629;
   }
 
   .sm\:filter{
@@ -56637,6 +57573,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-divide-opacity));
   }
 
+  .md\:divide-github > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-divide-opacity));
+  }
+
+  .md\:divide-mastodon > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-divide-opacity));
+  }
+
+  .md\:divide-weibo > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-divide-opacity));
+  }
+
   .md\:divide-opacity-0 > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 0;
   }
@@ -57565,6 +58516,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .md\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .md\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .md\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .group:hover .md\:group-hover\:border-transparent{
     border-color: transparent;
   }
@@ -57748,6 +58714,21 @@ a > code[class*="language-"] {
   .group:hover .md\:group-hover\:border-whatsapp{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .group:hover .md\:group-hover\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .group:hover .md\:group-hover\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .group:hover .md\:group-hover\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .md\:focus-within\:border-transparent:focus-within{
@@ -57935,6 +58916,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .md\:focus-within\:border-github:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .md\:focus-within\:border-mastodon:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .md\:focus-within\:border-weibo:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .md\:hover\:border-transparent:hover{
     border-color: transparent;
   }
@@ -58120,6 +59116,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .md\:hover\:border-github:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .md\:hover\:border-mastodon:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .md\:hover\:border-weibo:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .md\:focus\:border-transparent:focus{
     border-color: transparent;
   }
@@ -58303,6 +59314,21 @@ a > code[class*="language-"] {
   .md\:focus\:border-whatsapp:focus{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .md\:focus\:border-github:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .md\:focus\:border-mastodon:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .md\:focus\:border-weibo:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .md\:border-opacity-0{
@@ -58830,6 +59856,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .md\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-transparent{
     background-color: transparent;
   }
@@ -59013,6 +60054,21 @@ a > code[class*="language-"] {
   .group:hover .md\:group-hover\:bg-whatsapp{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-transparent:focus-within{
@@ -59200,6 +60256,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-github:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-mastodon:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-weibo:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -59385,6 +60456,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-github:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-mastodon:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-weibo:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-transparent:focus{
     background-color: transparent;
   }
@@ -59568,6 +60654,21 @@ a > code[class*="language-"] {
   .md\:focus\:bg-whatsapp:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-github:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-mastodon:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-weibo:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .md\:bg-opacity-0{
@@ -60146,6 +61247,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .md\:from-github{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:from-mastodon{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:from-weibo{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .md\:hover\:from-transparent:hover{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -60344,6 +61460,21 @@ a > code[class*="language-"] {
   .md\:hover\:from-whatsapp:hover{
     --tw-gradient-from: #64d448;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .md\:hover\:from-github:hover{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:hover\:from-mastodon:hover{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:hover\:from-weibo:hover{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .md\:focus\:from-transparent:focus{
@@ -60546,6 +61677,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .md\:focus\:from-github:focus{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:focus\:from-mastodon:focus{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:focus\:from-weibo:focus{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .md\:via-transparent{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -60704,6 +61850,18 @@ a > code[class*="language-"] {
 
   .md\:via-whatsapp{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .md\:via-github{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:via-mastodon{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:via-weibo{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .md\:hover\:via-transparent:hover{
@@ -60866,6 +62024,18 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .md\:hover\:via-github:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:hover\:via-mastodon:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:hover\:via-weibo:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .md\:focus\:via-transparent:focus{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -61024,6 +62194,18 @@ a > code[class*="language-"] {
 
   .md\:focus\:via-whatsapp:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .md\:focus\:via-github:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .md\:focus\:via-mastodon:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .md\:focus\:via-weibo:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .md\:to-transparent{
@@ -61186,6 +62368,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .md\:to-github{
+    --tw-gradient-to: #24292f;
+  }
+
+  .md\:to-mastodon{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .md\:to-weibo{
+    --tw-gradient-to: #d62629;
+  }
+
   .md\:hover\:to-transparent:hover{
     --tw-gradient-to: transparent;
   }
@@ -61346,6 +62540,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .md\:hover\:to-github:hover{
+    --tw-gradient-to: #24292f;
+  }
+
+  .md\:hover\:to-mastodon:hover{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .md\:hover\:to-weibo:hover{
+    --tw-gradient-to: #d62629;
+  }
+
   .md\:focus\:to-transparent:focus{
     --tw-gradient-to: transparent;
   }
@@ -61504,6 +62710,18 @@ a > code[class*="language-"] {
 
   .md\:focus\:to-whatsapp:focus{
     --tw-gradient-to: #64d448;
+  }
+
+  .md\:focus\:to-github:focus{
+    --tw-gradient-to: #24292f;
+  }
+
+  .md\:focus\:to-mastodon:focus{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .md\:focus\:to-weibo:focus{
+    --tw-gradient-to: #d62629;
   }
 
   .md\:decoration-slice{
@@ -63325,6 +64543,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .md\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .md\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .md\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .group:hover .md\:group-hover\:text-transparent{
     color: transparent;
   }
@@ -63508,6 +64741,21 @@ a > code[class*="language-"] {
   .group:hover .md\:group-hover\:text-whatsapp{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-transparent:focus-within{
@@ -63695,6 +64943,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .md\:focus-within\:text-github:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .md\:focus-within\:text-mastodon:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .md\:focus-within\:text-weibo:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .md\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -63880,6 +65143,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .md\:hover\:text-github:hover{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .md\:hover\:text-mastodon:hover{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .md\:hover\:text-weibo:hover{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .md\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -64063,6 +65341,21 @@ a > code[class*="language-"] {
   .md\:focus\:text-whatsapp:focus{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-github:focus{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-mastodon:focus{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-weibo:focus{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .md\:text-opacity-0{
@@ -64660,6 +65953,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
   }
 
+  .md\:placeholder-github::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-mastodon::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-weibo::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
+  }
+
   .md\:focus\:placeholder-transparent:focus::placeholder{
     color: transparent;
   }
@@ -64843,6 +66151,21 @@ a > code[class*="language-"] {
   .md\:focus\:placeholder-whatsapp:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-github:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-mastodon:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-weibo:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
   }
 
   .md\:placeholder-opacity-0::placeholder{
@@ -66024,6 +67347,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .md\:ring-github{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .md\:ring-mastodon{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .md\:ring-weibo{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .md\:focus-within\:ring-transparent:focus-within{
     --tw-ring-color: transparent;
   }
@@ -66209,6 +67547,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .md\:focus-within\:ring-github:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .md\:focus-within\:ring-mastodon:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .md\:focus-within\:ring-weibo:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .md\:focus\:ring-transparent:focus{
     --tw-ring-color: transparent;
   }
@@ -66392,6 +67745,21 @@ a > code[class*="language-"] {
   .md\:focus\:ring-whatsapp:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
+  }
+
+  .md\:focus\:ring-github:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .md\:focus\:ring-mastodon:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .md\:focus\:ring-weibo:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
   }
 
   .md\:ring-opacity-0{
@@ -66818,6 +68186,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .md\:ring-offset-github{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .md\:ring-offset-mastodon{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .md\:ring-offset-weibo{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .md\:focus-within\:ring-offset-transparent:focus-within{
     --tw-ring-offset-color: transparent;
   }
@@ -66978,6 +68358,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .md\:focus-within\:ring-offset-github:focus-within{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .md\:focus-within\:ring-offset-mastodon:focus-within{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .md\:focus-within\:ring-offset-weibo:focus-within{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .md\:focus\:ring-offset-transparent:focus{
     --tw-ring-offset-color: transparent;
   }
@@ -67136,6 +68528,18 @@ a > code[class*="language-"] {
 
   .md\:focus\:ring-offset-whatsapp:focus{
     --tw-ring-offset-color: #64d448;
+  }
+
+  .md\:focus\:ring-offset-github:focus{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .md\:focus\:ring-offset-mastodon:focus{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .md\:focus\:ring-offset-weibo:focus{
+    --tw-ring-offset-color: #d62629;
   }
 
   .md\:filter{
@@ -78277,6 +79681,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-divide-opacity));
   }
 
+  .lg\:divide-github > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-divide-opacity));
+  }
+
+  .lg\:divide-mastodon > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-divide-opacity));
+  }
+
+  .lg\:divide-weibo > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-divide-opacity));
+  }
+
   .lg\:divide-opacity-0 > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 0;
   }
@@ -79205,6 +80624,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .lg\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .lg\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .lg\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .group:hover .lg\:group-hover\:border-transparent{
     border-color: transparent;
   }
@@ -79388,6 +80822,21 @@ a > code[class*="language-"] {
   .group:hover .lg\:group-hover\:border-whatsapp{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .lg\:focus-within\:border-transparent:focus-within{
@@ -79575,6 +81024,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .lg\:focus-within\:border-github:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .lg\:focus-within\:border-mastodon:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .lg\:focus-within\:border-weibo:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .lg\:hover\:border-transparent:hover{
     border-color: transparent;
   }
@@ -79760,6 +81224,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .lg\:hover\:border-github:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .lg\:hover\:border-mastodon:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .lg\:hover\:border-weibo:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .lg\:focus\:border-transparent:focus{
     border-color: transparent;
   }
@@ -79943,6 +81422,21 @@ a > code[class*="language-"] {
   .lg\:focus\:border-whatsapp:focus{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .lg\:focus\:border-github:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .lg\:focus\:border-mastodon:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .lg\:focus\:border-weibo:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .lg\:border-opacity-0{
@@ -80470,6 +81964,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent{
     background-color: transparent;
   }
@@ -80653,6 +82162,21 @@ a > code[class*="language-"] {
   .group:hover .lg\:group-hover\:bg-whatsapp{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-transparent:focus-within{
@@ -80840,6 +82364,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-github:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-mastodon:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-weibo:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -81025,6 +82564,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-github:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-mastodon:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-weibo:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-transparent:focus{
     background-color: transparent;
   }
@@ -81208,6 +82762,21 @@ a > code[class*="language-"] {
   .lg\:focus\:bg-whatsapp:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-github:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-mastodon:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-weibo:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .lg\:bg-opacity-0{
@@ -81786,6 +83355,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .lg\:from-github{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:from-mastodon{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:from-weibo{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .lg\:hover\:from-transparent:hover{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -81984,6 +83568,21 @@ a > code[class*="language-"] {
   .lg\:hover\:from-whatsapp:hover{
     --tw-gradient-from: #64d448;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .lg\:hover\:from-github:hover{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:hover\:from-mastodon:hover{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:hover\:from-weibo:hover{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .lg\:focus\:from-transparent:focus{
@@ -82186,6 +83785,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .lg\:focus\:from-github:focus{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:focus\:from-mastodon:focus{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:focus\:from-weibo:focus{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .lg\:via-transparent{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -82344,6 +83958,18 @@ a > code[class*="language-"] {
 
   .lg\:via-whatsapp{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .lg\:via-github{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:via-mastodon{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:via-weibo{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .lg\:hover\:via-transparent:hover{
@@ -82506,6 +84132,18 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .lg\:hover\:via-github:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:hover\:via-mastodon:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:hover\:via-weibo:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .lg\:focus\:via-transparent:focus{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -82664,6 +84302,18 @@ a > code[class*="language-"] {
 
   .lg\:focus\:via-whatsapp:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .lg\:focus\:via-github:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .lg\:focus\:via-mastodon:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .lg\:focus\:via-weibo:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .lg\:to-transparent{
@@ -82826,6 +84476,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .lg\:to-github{
+    --tw-gradient-to: #24292f;
+  }
+
+  .lg\:to-mastodon{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .lg\:to-weibo{
+    --tw-gradient-to: #d62629;
+  }
+
   .lg\:hover\:to-transparent:hover{
     --tw-gradient-to: transparent;
   }
@@ -82986,6 +84648,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .lg\:hover\:to-github:hover{
+    --tw-gradient-to: #24292f;
+  }
+
+  .lg\:hover\:to-mastodon:hover{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .lg\:hover\:to-weibo:hover{
+    --tw-gradient-to: #d62629;
+  }
+
   .lg\:focus\:to-transparent:focus{
     --tw-gradient-to: transparent;
   }
@@ -83144,6 +84818,18 @@ a > code[class*="language-"] {
 
   .lg\:focus\:to-whatsapp:focus{
     --tw-gradient-to: #64d448;
+  }
+
+  .lg\:focus\:to-github:focus{
+    --tw-gradient-to: #24292f;
+  }
+
+  .lg\:focus\:to-mastodon:focus{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .lg\:focus\:to-weibo:focus{
+    --tw-gradient-to: #d62629;
   }
 
   .lg\:decoration-slice{
@@ -84965,6 +86651,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .lg\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .lg\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .lg\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .group:hover .lg\:group-hover\:text-transparent{
     color: transparent;
   }
@@ -85148,6 +86849,21 @@ a > code[class*="language-"] {
   .group:hover .lg\:group-hover\:text-whatsapp{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-transparent:focus-within{
@@ -85335,6 +87051,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .lg\:focus-within\:text-github:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .lg\:focus-within\:text-mastodon:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .lg\:focus-within\:text-weibo:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .lg\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -85520,6 +87251,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .lg\:hover\:text-github:hover{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-mastodon:hover{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-weibo:hover{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .lg\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -85703,6 +87449,21 @@ a > code[class*="language-"] {
   .lg\:focus\:text-whatsapp:focus{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-github:focus{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-mastodon:focus{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-weibo:focus{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .lg\:text-opacity-0{
@@ -86300,6 +88061,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
   }
 
+  .lg\:placeholder-github::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-mastodon::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-weibo::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
+  }
+
   .lg\:focus\:placeholder-transparent:focus::placeholder{
     color: transparent;
   }
@@ -86483,6 +88259,21 @@ a > code[class*="language-"] {
   .lg\:focus\:placeholder-whatsapp:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-github:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-mastodon:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-weibo:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
   }
 
   .lg\:placeholder-opacity-0::placeholder{
@@ -87664,6 +89455,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .lg\:ring-github{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .lg\:ring-mastodon{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .lg\:ring-weibo{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .lg\:focus-within\:ring-transparent:focus-within{
     --tw-ring-color: transparent;
   }
@@ -87849,6 +89655,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .lg\:focus-within\:ring-github:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus-within\:ring-mastodon:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus-within\:ring-weibo:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .lg\:focus\:ring-transparent:focus{
     --tw-ring-color: transparent;
   }
@@ -88032,6 +89853,21 @@ a > code[class*="language-"] {
   .lg\:focus\:ring-whatsapp:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus\:ring-github:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus\:ring-mastodon:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus\:ring-weibo:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
   }
 
   .lg\:ring-opacity-0{
@@ -88458,6 +90294,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .lg\:ring-offset-github{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .lg\:ring-offset-mastodon{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .lg\:ring-offset-weibo{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .lg\:focus-within\:ring-offset-transparent:focus-within{
     --tw-ring-offset-color: transparent;
   }
@@ -88618,6 +90466,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .lg\:focus-within\:ring-offset-github:focus-within{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .lg\:focus-within\:ring-offset-mastodon:focus-within{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .lg\:focus-within\:ring-offset-weibo:focus-within{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .lg\:focus\:ring-offset-transparent:focus{
     --tw-ring-offset-color: transparent;
   }
@@ -88776,6 +90636,18 @@ a > code[class*="language-"] {
 
   .lg\:focus\:ring-offset-whatsapp:focus{
     --tw-ring-offset-color: #64d448;
+  }
+
+  .lg\:focus\:ring-offset-github:focus{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .lg\:focus\:ring-offset-mastodon:focus{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .lg\:focus\:ring-offset-weibo:focus{
+    --tw-ring-offset-color: #d62629;
   }
 
   .lg\:filter{
@@ -99917,6 +101789,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-divide-opacity));
   }
 
+  .xl\:divide-github > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-divide-opacity));
+  }
+
+  .xl\:divide-mastodon > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-divide-opacity));
+  }
+
+  .xl\:divide-weibo > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-divide-opacity));
+  }
+
   .xl\:divide-opacity-0 > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 0;
   }
@@ -100845,6 +102732,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .xl\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .xl\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .xl\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .group:hover .xl\:group-hover\:border-transparent{
     border-color: transparent;
   }
@@ -101028,6 +102930,21 @@ a > code[class*="language-"] {
   .group:hover .xl\:group-hover\:border-whatsapp{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:border-github{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:border-mastodon{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:border-weibo{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .xl\:focus-within\:border-transparent:focus-within{
@@ -101215,6 +103132,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .xl\:focus-within\:border-github:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .xl\:focus-within\:border-mastodon:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .xl\:focus-within\:border-weibo:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .xl\:hover\:border-transparent:hover{
     border-color: transparent;
   }
@@ -101400,6 +103332,21 @@ a > code[class*="language-"] {
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
   }
 
+  .xl\:hover\:border-github:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .xl\:hover\:border-mastodon:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .xl\:hover\:border-weibo:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
+  }
+
   .xl\:focus\:border-transparent:focus{
     border-color: transparent;
   }
@@ -101583,6 +103530,21 @@ a > code[class*="language-"] {
   .xl\:focus\:border-whatsapp:focus{
     --tw-border-opacity: 1;
     border-color: rgba(100, 212, 72, var(--tw-border-opacity));
+  }
+
+  .xl\:focus\:border-github:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(36, 41, 47, var(--tw-border-opacity));
+  }
+
+  .xl\:focus\:border-mastodon:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(48, 136, 212, var(--tw-border-opacity));
+  }
+
+  .xl\:focus\:border-weibo:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(214, 38, 41, var(--tw-border-opacity));
   }
 
   .xl\:border-opacity-0{
@@ -102110,6 +104072,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent{
     background-color: transparent;
   }
@@ -102293,6 +104270,21 @@ a > code[class*="language-"] {
   .group:hover .xl\:group-hover\:bg-whatsapp{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-github{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-mastodon{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-weibo{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-transparent:focus-within{
@@ -102480,6 +104472,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-github:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-mastodon:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-weibo:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover{
     background-color: transparent;
   }
@@ -102665,6 +104672,21 @@ a > code[class*="language-"] {
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-github:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-mastodon:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-weibo:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-transparent:focus{
     background-color: transparent;
   }
@@ -102848,6 +104870,21 @@ a > code[class*="language-"] {
   .xl\:focus\:bg-whatsapp:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(100, 212, 72, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-github:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(36, 41, 47, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-mastodon:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(48, 136, 212, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-weibo:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(214, 38, 41, var(--tw-bg-opacity));
   }
 
   .xl\:bg-opacity-0{
@@ -103426,6 +105463,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .xl\:from-github{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:from-mastodon{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:from-weibo{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .xl\:hover\:from-transparent:hover{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -103624,6 +105676,21 @@ a > code[class*="language-"] {
   .xl\:hover\:from-whatsapp:hover{
     --tw-gradient-from: #64d448;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .xl\:hover\:from-github:hover{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:hover\:from-mastodon:hover{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:hover\:from-weibo:hover{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .xl\:focus\:from-transparent:focus{
@@ -103826,6 +105893,21 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .xl\:focus\:from-github:focus{
+    --tw-gradient-from: #24292f;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:focus\:from-mastodon:focus{
+    --tw-gradient-from: #3088d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:focus\:from-weibo:focus{
+    --tw-gradient-from: #d62629;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .xl\:via-transparent{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -103984,6 +106066,18 @@ a > code[class*="language-"] {
 
   .xl\:via-whatsapp{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .xl\:via-github{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:via-mastodon{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:via-weibo{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .xl\:hover\:via-transparent:hover{
@@ -104146,6 +106240,18 @@ a > code[class*="language-"] {
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
   }
 
+  .xl\:hover\:via-github:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:hover\:via-mastodon:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:hover\:via-weibo:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
+  }
+
   .xl\:focus\:via-transparent:focus{
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -104304,6 +106410,18 @@ a > code[class*="language-"] {
 
   .xl\:focus\:via-whatsapp:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #64d448, var(--tw-gradient-to, rgba(100, 212, 72, 0));
+  }
+
+  .xl\:focus\:via-github:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #24292f, var(--tw-gradient-to, rgba(36, 41, 47, 0));
+  }
+
+  .xl\:focus\:via-mastodon:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #3088d4, var(--tw-gradient-to, rgba(48, 136, 212, 0));
+  }
+
+  .xl\:focus\:via-weibo:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #d62629, var(--tw-gradient-to, rgba(214, 38, 41, 0));
   }
 
   .xl\:to-transparent{
@@ -104466,6 +106584,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .xl\:to-github{
+    --tw-gradient-to: #24292f;
+  }
+
+  .xl\:to-mastodon{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .xl\:to-weibo{
+    --tw-gradient-to: #d62629;
+  }
+
   .xl\:hover\:to-transparent:hover{
     --tw-gradient-to: transparent;
   }
@@ -104626,6 +106756,18 @@ a > code[class*="language-"] {
     --tw-gradient-to: #64d448;
   }
 
+  .xl\:hover\:to-github:hover{
+    --tw-gradient-to: #24292f;
+  }
+
+  .xl\:hover\:to-mastodon:hover{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .xl\:hover\:to-weibo:hover{
+    --tw-gradient-to: #d62629;
+  }
+
   .xl\:focus\:to-transparent:focus{
     --tw-gradient-to: transparent;
   }
@@ -104784,6 +106926,18 @@ a > code[class*="language-"] {
 
   .xl\:focus\:to-whatsapp:focus{
     --tw-gradient-to: #64d448;
+  }
+
+  .xl\:focus\:to-github:focus{
+    --tw-gradient-to: #24292f;
+  }
+
+  .xl\:focus\:to-mastodon:focus{
+    --tw-gradient-to: #3088d4;
+  }
+
+  .xl\:focus\:to-weibo:focus{
+    --tw-gradient-to: #d62629;
   }
 
   .xl\:decoration-slice{
@@ -106605,6 +108759,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .xl\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .xl\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .xl\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .group:hover .xl\:group-hover\:text-transparent{
     color: transparent;
   }
@@ -106788,6 +108957,21 @@ a > code[class*="language-"] {
   .group:hover .xl\:group-hover\:text-whatsapp{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-github{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-mastodon{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-weibo{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-transparent:focus-within{
@@ -106975,6 +109159,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .xl\:focus-within\:text-github:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .xl\:focus-within\:text-mastodon:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .xl\:focus-within\:text-weibo:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .xl\:hover\:text-transparent:hover{
     color: transparent;
   }
@@ -107160,6 +109359,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-text-opacity));
   }
 
+  .xl\:hover\:text-github:hover{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .xl\:hover\:text-mastodon:hover{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .xl\:hover\:text-weibo:hover{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
+  }
+
   .xl\:focus\:text-transparent:focus{
     color: transparent;
   }
@@ -107343,6 +109557,21 @@ a > code[class*="language-"] {
   .xl\:focus\:text-whatsapp:focus{
     --tw-text-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-github:focus{
+    --tw-text-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-mastodon:focus{
+    --tw-text-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-weibo:focus{
+    --tw-text-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-text-opacity));
   }
 
   .xl\:text-opacity-0{
@@ -107940,6 +110169,21 @@ a > code[class*="language-"] {
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
   }
 
+  .xl\:placeholder-github::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-mastodon::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-weibo::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
+  }
+
   .xl\:focus\:placeholder-transparent:focus::placeholder{
     color: transparent;
   }
@@ -108123,6 +110367,21 @@ a > code[class*="language-"] {
   .xl\:focus\:placeholder-whatsapp:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(100, 212, 72, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-github:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(36, 41, 47, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-mastodon:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(48, 136, 212, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-weibo:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(214, 38, 41, var(--tw-placeholder-opacity));
   }
 
   .xl\:placeholder-opacity-0::placeholder{
@@ -109304,6 +111563,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .xl\:ring-github{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .xl\:ring-mastodon{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .xl\:ring-weibo{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .xl\:focus-within\:ring-transparent:focus-within{
     --tw-ring-color: transparent;
   }
@@ -109489,6 +111763,21 @@ a > code[class*="language-"] {
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
   }
 
+  .xl\:focus-within\:ring-github:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus-within\:ring-mastodon:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus-within\:ring-weibo:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
+  }
+
   .xl\:focus\:ring-transparent:focus{
     --tw-ring-color: transparent;
   }
@@ -109672,6 +111961,21 @@ a > code[class*="language-"] {
   .xl\:focus\:ring-whatsapp:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(100, 212, 72, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus\:ring-github:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(36, 41, 47, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus\:ring-mastodon:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(48, 136, 212, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus\:ring-weibo:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(214, 38, 41, var(--tw-ring-opacity));
   }
 
   .xl\:ring-opacity-0{
@@ -110098,6 +112402,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .xl\:ring-offset-github{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .xl\:ring-offset-mastodon{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .xl\:ring-offset-weibo{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .xl\:focus-within\:ring-offset-transparent:focus-within{
     --tw-ring-offset-color: transparent;
   }
@@ -110258,6 +112574,18 @@ a > code[class*="language-"] {
     --tw-ring-offset-color: #64d448;
   }
 
+  .xl\:focus-within\:ring-offset-github:focus-within{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .xl\:focus-within\:ring-offset-mastodon:focus-within{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .xl\:focus-within\:ring-offset-weibo:focus-within{
+    --tw-ring-offset-color: #d62629;
+  }
+
   .xl\:focus\:ring-offset-transparent:focus{
     --tw-ring-offset-color: transparent;
   }
@@ -110416,6 +112744,18 @@ a > code[class*="language-"] {
 
   .xl\:focus\:ring-offset-whatsapp:focus{
     --tw-ring-offset-color: #64d448;
+  }
+
+  .xl\:focus\:ring-offset-github:focus{
+    --tw-ring-offset-color: #24292f;
+  }
+
+  .xl\:focus\:ring-offset-mastodon:focus{
+    --tw-ring-offset-color: #3088d4;
+  }
+
+  .xl\:focus\:ring-offset-weibo:focus{
+    --tw-ring-offset-color: #d62629;
   }
 
   .xl\:filter{

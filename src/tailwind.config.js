@@ -43,7 +43,10 @@ module.exports = {
       youtube: '#FF0000',
       linkedin: '#007bb6',
       instagram: '#bf32a8',
-      whatsapp: '#64d448'
+      whatsapp: '#64d448',
+      github: '#24292f',
+      mastodon: '#3088d4',
+      weibo: '#d62629',
     },
     screens: {
       sm: '640px',
